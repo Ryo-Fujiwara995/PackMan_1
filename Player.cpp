@@ -2,6 +2,7 @@
 #include "Engine/Model.h"
 #include "Engine/Input.h"
 #include "Engine/Debug.h"
+#include "Engine/SceneManager.h"
 #include "Stage.h"
 #include "Gauge.h"
 //make PackMan
@@ -81,7 +82,12 @@ void Player::Update() {
 		hpCrr_ = hpCrr_ - 1;
 		if (hpCrr_ < 0) {
 			hpCrr_ = 0;
-			//game over scene ni idou
+			//if (hpCrr_ = 0) {
+				//game over scene ni idou
+				SceneManager* pSM = (SceneManager*)FindObject("SceneManager");
+				pSM->ChangeScene(SCENE_ID_TITLE);
+			//}
+			
 		}
 	}
 	//ˆÚ“®æ‚ªAwall‚¾‚Á‚½‚çAˆÚ“®‚µ‚È‚¢

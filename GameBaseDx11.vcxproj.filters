@@ -30,6 +30,9 @@
     <Filter Include="リソース ファイル\TitleScenes">
       <UniqueIdentifier>{261a69a7-e08a-4f6b-8604-fb5a7a12a094}</UniqueIdentifier>
     </Filter>
+    <Filter Include="リソース ファイル\GameoverScenes">
+      <UniqueIdentifier>{61f4e9af-032c-4cbb-adfd-1a897020f79a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Engine\BoxCollider.cpp">
@@ -110,9 +113,23 @@
     <ClCompile Include="PlayScene.cpp">
       <Filter>リソース ファイル\PlayScenes</Filter>
     </ClCompile>
-    <ClCompile Include="TestScene.cpp" />
     <ClCompile Include="Gauge.cpp">
       <Filter>リソース ファイル\PlayScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>リソース ファイル\TitleScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleSceneImage.cpp">
+      <Filter>リソース ファイル\TitleScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameoverSceneImage.cpp">
+      <Filter>リソース ファイル\GameoverScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameoverScene.cpp">
+      <Filter>リソース ファイル\GameoverScenes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -170,7 +187,6 @@
     <ClInclude Include="Engine\Transform.h">
       <Filter>01Engine\GameObject</Filter>
     </ClInclude>
-    <ClInclude Include="TestScene.h" />
     <ClInclude Include="Engine\Audio.h">
       <Filter>01Engine\ResourceManager</Filter>
     </ClInclude>
@@ -197,6 +213,21 @@
     </ClInclude>
     <ClInclude Include="Gauge.h">
       <Filter>リソース ファイル\PlayScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>リソース ファイル\TitleScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleSceneImage.h">
+      <Filter>リソース ファイル\TitleScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameoverSceneImage.h">
+      <Filter>リソース ファイル\GameoverScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameoverScene.h">
+      <Filter>リソース ファイル\GameoverScenes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
